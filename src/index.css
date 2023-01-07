@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style-type: none;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #9c9c9c;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+header {
+  padding: 0 16px;
+}
+h1 {
+  padding: 28px 16px 28px;
+  color: #dd6866;
+  font-weight: 400;
+  border-bottom: 2px solid #f1f1f1;
+}
+h1 span {
+  font-weight: 500;
+  color: #d54e41;
+}
+h2 {
+  max-width: max-content;
+  margin: 16px 0 24px 16px;
+  background-color: #f9f3f5;
+  border-radius: 7px;
+  padding: 6px 20px 6px;
+  color: #dc7996;
+}
+.timer {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.timer p {
+  color: #79a5b5;
+  font-weight: 500;
+}
+h3 {
+  color: #79a5b5;
+}
+.timer-body {
+  width: 312px;
+  background-color: #f2dede;
+  padding: 16px;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.timer-clock {
+  width: 46px;
+  margin-left: 110px;
+  color: #bc6b6b;
+}
+table {
+  border-collapse: collapse;
+  width: 1460px;
+  margin: 0 auto;
+}
+.grey {
+  background-color: #f4f4f4;
+}
+thead {
+  text-transform: uppercase;
+  color: #79a5b5;
+}
+.title th {
+  padding-bottom: 30px;
+}
+.title th:first-child {
+  text-align: left;
+  padding-left: 86px;
+}
+tbody {
+  font-size: 14px;
+  text-align: center;
+  border-top: 2px solid #d5d5d5;
+}
+.descr {
+  text-align: left;
+  width: 400px;
+}
+td {
+  padding: 6px;
+}
+.num {
+  font-weight: 500;
+}
+.num p:nth-child(1) {
+  color: #518dc0;
+}
+.num p:nth-child(2) {
+  color: #bb6f6e;
+}
+.num p:nth-child(3) {
+  color: #5a8a5a;
+}
